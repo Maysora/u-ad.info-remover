@@ -1,0 +1,27 @@
+.slowdy-ads-remover-popup {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: auto;
+  z-index: 99999;
+  color: #ff9800;
+  background-color: #ffe0b2;
+  padding: 6px 12px;
+}
+.slowdy-ads-remover-popup p {
+  font-size: 1em;
+  margin: 2px 0px 6px;
+  text-align: left;
+}
+.slowdy-ads-remover-popup div {
+  text-align: right;
+}
+.slowdy-ads-remover-popup a {
+  color: #cc7a00;
+  font-weight: bold;
+}
+.slowdy-ads-remover-popup a:hover {
+  color: #cc7a00;
+  text-decoration: underline;
+}
