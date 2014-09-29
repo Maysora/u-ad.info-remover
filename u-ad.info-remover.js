@@ -59,7 +59,8 @@
            More information available <a href="https://github.com/Maysora/u-ad.info-remover/wiki/Information-(Informasi)" target="_blank">here</a>') +
           '</p>');
         $popup.append('<div><a href="#">Got it</a> | <a href="#" data-remember="true">Don\'t remind me again</a></div>')
-        $popup.on('click', 'a', function(){
+        $popup.on('click', 'a', function(e){
+          e.preventDefault();
           $popup.slideUp();
           $.slowdyAdsRemover._setCookie('slowdy-ads-remover-off', '1', ($(this).data('remember')) ? 99999 : false);
         });
