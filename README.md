@@ -31,6 +31,11 @@ jQuery(function(){
 });
 ```
 
+## Screenshots
+
+![Default Popup](https://dl.dropboxusercontent.com/u/42182502/2fm0kdd930.png)
+Default popup
+
 ## License
 
 See [LICENSE](LICENSE)
